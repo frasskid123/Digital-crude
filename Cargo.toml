@@ -1,11 +1,2 @@
-[package]
-name = "digital_crude"
-version = "0.1.0"
-edition = "2021"
-
 [dependencies]
-tokio = { version = "1", features = ["full"] }
-secp256k1 = "0.21"
-sha2 = "0.9"
-rocksdb = "0.21"
-warp = "0.3"
+hex = "0.4"
